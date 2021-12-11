@@ -78,6 +78,20 @@ int main()
     fflush;
 
     // exercise 05
+    int upper;
+    int lower;
+    printf("Give a lower and upper bound for the numbers.\n");
+    scanf("%d %d", &lower, &upper);
+
+    for (int i = lower; i <= upper; i++)
+    {
+        if (!(i % 7))
+        {
+            printf("%d \n", i);
+        }
+        
+    }
+    
 
     // exercise 06
     printf("Give height of the LEGO stair.\n");
@@ -88,8 +102,31 @@ int main()
     fflush;
 
     // exercise 07
+    printf("Give the number of inputs.\n");
+    scanf("%d", &number);
+    
+    int min = 0;
+    int max = 0;
+    int input;
+
+    printf("Enter your numbers now one by one.\n");
+    for (int i = 0; i < number; i++)
+    {
+        scanf("%d", &input);
+        if (input > max)
+        {
+            max = input;
+        }
+        if (input < min)
+        {
+            min = input;
+        }
+        
+    }
+    printf("Minimum: %d\nMaximum: %d \n", min, max);
 
     // exercise 08
+    
     
     // exercise 09
 
