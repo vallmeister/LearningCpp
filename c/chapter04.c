@@ -55,7 +55,7 @@ void four() {
 
 // exercise 5
 void five() {
-
+    
 }
 
 // exercise 6
@@ -93,22 +93,20 @@ int main(){
     } else if (exercise == 2) {
         two();
     } else if (exercise == 3) {
-
+        three();
     } else if (exercise == 4) {
-
+        four();    
     } else if (exercise == 5) {
-
+        five();
     } else if (exercise == 6) {
-
+        six();
     } else if (exercise == 7) {
-
+        seven();
     } else if (exercise == 8) {
-
+        eight();
     } else if (exercise == 9) {
-
+        nine();
     } else if (exercise == 10) {
-
+        ten();
     }
-    
-
 }
