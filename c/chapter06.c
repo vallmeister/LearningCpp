@@ -1,7 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void one() {}
+// exercise 1
+void one() {
+    int counter = 0;
+    char character;
+    char word[100];
+
+    printf("Enter a word: ");
+    scanf("\n%s", word);
+    printf("Enter the char to count its occurence: ");
+    scanf("\n%c", &character);
+
+    for (int i = 0; i < 100; i++) {
+        if (word[i] == 0) break;
+        else if (word[i] == character) counter++;
+    }
+    printf("'%c' occures %d times in \"%s\"\n", character, counter, word);
+}
 
 void two() {}
 
